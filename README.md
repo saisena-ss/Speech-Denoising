@@ -34,7 +34,7 @@ SNR is calculated as: SNR = 10 * log10(Σ(s^2) / Σ(e^2)), where "s" is the clea
 Assess the performance of the trained RNN by examining the validation loss and the SNR values of the denoised audio.
 
 ### Conclusion
-This project demonstrates the use of RNNs for speech denoising using Ideal Binary Masks. By training an RNN to predict these masks, I was able to effectively separate speech from noise in audio signals, resulting in improved signal quality.With very simple RNN using 2 LSTM layers and dropout, I achieved SNR of 12.36 dB on validation data.
+This project demonstrates the use of RNNs for speech denoising using Ideal Binary Masks. By training an RNN to predict these masks, I was able to effectively separate speech from noise in audio signals, resulting in improved signal quality.With very simple RNN using 2 LSTM layers, 1 dense layer and dropout, I achieved SNR of 12.36 dB on validation data.
 
 ### Future Work
 In future work, you can explore the following:
